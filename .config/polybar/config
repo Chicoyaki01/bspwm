@@ -44,8 +44,6 @@ fixed-center = true
 
 enable-ipc = true
 
-monitor = ${env:MONITOR:DP-0}
-
 background = ${colors.transparent}
 foreground = ${colors.foreground}
 
