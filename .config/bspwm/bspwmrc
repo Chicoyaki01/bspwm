@@ -9,10 +9,10 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 xrandr --output Virtual-1 --mode 1280x768
 
 setxkbmap us &
-nitrogen --restore
+nitrogen --restore &
 picom &
 
-sh $HOME/.config/polybar/scripts/launch.sh
+sh $HOME/.config/polybar/scripts/launch.sh &
 
 bspc monitor -d 1 2 3 4 5 6
 
