@@ -13,4 +13,3 @@ compinit
 # Prompt ZSH
 autoload -Uz promptinit
 promptinit
-
