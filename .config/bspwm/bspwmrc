@@ -12,7 +12,7 @@ setxkbmap us &
 nitrogen --restore
 picom &
 
-sh $HOME/.config/polybar/launch.sh
+sh $HOME/.config/polybar/scripts/launch.sh
 
 bspc monitor -d 1 2 3 4 5 6
 
