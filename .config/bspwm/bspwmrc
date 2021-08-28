@@ -12,9 +12,9 @@ setxkbmap us &
 nitrogen --restore &
 picom &
 
-bspc monitor -d 1 2 3 4 5 6
-
 sh $HOME/.config/polybar/scripts/launch.sh &
+
+bspc monitor -d 1 2 3 4 5 6
 
 bspc config border_width         2
 bspc config window_gap          12
