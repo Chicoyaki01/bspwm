@@ -14,7 +14,7 @@ killall polybar
 setxkbmap us &
 nitrogen --restore &
 picom &
-
+spotify &
 sh $HOME/.config/polybar/scripts/launch.sh &
 
 bspc monitor -d 1 2 3 4 5 6
