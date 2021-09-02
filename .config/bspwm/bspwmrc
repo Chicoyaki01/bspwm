@@ -6,7 +6,7 @@ export XMODIFIERS=@im=kime
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-xrandr --output Virtual-1 --mode 1280x768
+xrandr --output Virtual-1 --mode 1920x1080
 
 killall picom
 killall polybar
